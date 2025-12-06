@@ -1,4 +1,4 @@
-# Amazon Clone 🛒⚡
+# Amazon Clone 
 
 Recreated the homepage UI of Amazon using **HTML & CSS** to level up my front-end skills fr.
 
