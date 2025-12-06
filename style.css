@@ -9,7 +9,7 @@
     background-color: #052903;
     color: white;
     display:flex;
-    top:0;
+    z-index: 100;
     position: fixed;
   top: 0;
   width: 100%;
@@ -176,13 +176,17 @@ p:hover{
 .box{
     
     height:400px;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     width:35%;
     margin:-10px 10px 10px 10px;
     justify-content: center;
     background-color: white;
     
     
+}
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 .product_boxes{
     display: flex;
@@ -208,8 +212,12 @@ p:hover{
     width: 160px;
     background-size: cover;
     position: relative;
-    
+     transition: transform 0.3s ease;
 }
+.box_img:hover{
+    transform: scale(1.05);
+}
+
 
 h2{
     font-size: 21px;
@@ -307,6 +315,7 @@ button{
     padding: 5px 5px 5px 5px;
     size: 75px;
     border: 1px solid white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 7px;
 }
 .lastt{
@@ -322,4 +331,8 @@ button{
 .lastt h6{
     font-weight: 700;
     font-size: 12px;
+}
+button:hover {
+  background-color: #f0c14b; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
