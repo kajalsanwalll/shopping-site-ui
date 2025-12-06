@@ -22,7 +22,7 @@
     width:100px;
 }
 .logo{
-    background-image: url("/Amazon Clone/images/amazon+logo.jpg");
+    background-image: url("public/images/amazon+logo.jpg");
     background-size: cover;
     height: 50px;
     width:100%;
@@ -138,7 +138,7 @@ p:hover{
 }
 
 .hero_section{
-    background-image: url("/Amazon Clone/images/hero\ pic.jpg");
+    background-image: url("public/images/hero\ pic.jpg");
     background-size: cover;
     height:320px;
     width:1500px; 
