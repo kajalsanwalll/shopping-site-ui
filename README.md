@@ -1,6 +1,6 @@
-# Amazon Clone 
+# Shopping site ui Clone 
 
-Recreated the homepage UI of Amazon using **HTML & CSS** to level up my front-end skills fr.
+Recreated the homepage UI of a shopping site using **HTML & CSS** to level up my front-end skills fr.
 
 ## Features
 - Navbar + search bar layout
