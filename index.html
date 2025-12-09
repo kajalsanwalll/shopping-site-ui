@@ -1,350 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopping site ui</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping site UI</title>
 
+  <!-- Font Awesome (fixed link) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo">
+  <header>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
 
-                </div>
-            </div>
-        
-          <div class="nav-add border">
-            <p class ="add-first">Deliver to</p>
-            <div class="add-icon">
-                <i class="fa-solid fa-location-dot"></i>
-
-                <p class="add-second">India</p>
-            </div>
-          </div>
-          <div class="nav-search">
-            <select class="select-search">
-            <option>All</option>
-            </select>
-            <input placeholder="  Search Amazun" class="input-search">
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
-          <div class="nav-eng border">
-            <i class="fa-solid fa-rectangle-list"></i>
-            <select select-eng>
-               <option>
-                EN
-               </option>
-            </select>
-          </div>
-          <div class="sign-in border">
-            <p><span>Hello, sign in</span></p>
-            <p class="two">Accounts & Lists</p>
-          </div>
-          
-          <div class="returns-order border">
-            <p><span>Returns</span></p>
-            <p class="two">& Orders</p>
-          </div>
-          <div class="nav-cart border">
-            <i class="fa-solid fa-cart-arrow-down"></i>
-            Cart
-          </div>
-     
-        </div>  
-
-      <div class="panel">
-            <div class="panel-all border">
-                <i class="fa-solid fa-list"></i>
-                All
-            </div>
-            <div class="panel-ops">
-                <p> Today's Deals</p>
-                <p>Prime Video</p>
-                <p>Registry</p>
-                <p>Gift Cards</p>
-                <p>Customer Service</p>
-                <p>Sell</p>
-            </div>
-
-      </div> 
-    </header>
-    <div class="hero_section">
-        <div class="hero_msg">
-            <p>You are on amazun.com. You can also shop on Amazun India for millions of products with fast local delivery. <a>Click here to go to amazun.in</a></p>
+      <div class="nav-add border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
         </div>
+      </div>
 
+      <div class="nav-search">
+        <select class="select-search">
+          <option>All</option>
+        </select>
+        <input
+          placeholder="  Search Amazun"
+          class="input-search"
+          type="text"
+        />
+        <button class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="nav-eng border">
+        <i class="fa-solid fa-rectangle-list"></i>
+        <select class="select-eng">
+          <option>EN</option>
+        </select>
+      </div>
+
+      <div class="sign-in border">
+        <p><span>Hello, sign in</span></p>
+        <p class="two">Accounts &amp; Lists</p>
+      </div>
+
+      <div class="returns-order border">
+        <p><span>Returns</span></p>
+        <p class="two">&amp; Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <span>Cart</span>
+      </div>
     </div>
-    
-    <div class="shop">
-        <div class="box1 box">
-             <h2>Shop gifts by price</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/1.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;"> Under $10</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/2.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> Under $25</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/3.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> Under $50</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/4.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> Under $100</p>
-              </div>
-             </div>
-             <pre>  
-              
-              Discover more for holiday</pre>
-        </div>     
-        
-        <div class="box2 box">
-             <h2>Shop gifts by recipient</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/5.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;"> For him</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/6.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> For her</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/7.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> For kids</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/8.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;"> For teens</p>
-              </div>
-             </div>
-             <pre>  
-              
-              Shop all gifts</pre>
-        </div>     
-            
-        <div class="box3 box">
-             <h2>Shop for your home essentials</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/9.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;">Cleaning Tools</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/10.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Home storage</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/11.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Home Decor</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/12.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Bedding</p>
-              </div>
-             </div>
-             <pre> 
-              
-              Discover more in home</pre>
-        </div>     
-        
-        <div class="box4 box">
-             <h2>Get your game on</h2>
-              <div class="single_box" style="background-image: url('images/13.jpg');"></div>
-              <pre> 
-               Shop gaming </pre>
-        </div>
-    </div>  
 
-    <!-- Now shop 2-->  
-
-    <div class="shop2">
-      <div class="box5 box">
-             <h2>Shop gifts by category</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/14.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;">Toys</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/15.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Home and Kitchen</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/16.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Electronics</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/17.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Sports & Outdoors</p>
-              </div>
-             </div>
-             <pre>  
-              
-              Discover more for holiday</pre>
-        </div>     
-        
-        <div class="box6 box">
-             <h2>Save more on deals</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/18.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;">Fashion</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/19.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Toys</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/20.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Home & Kitchen</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/21.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Electronics</p>
-              </div>
-             </div>
-             <pre>  
-              
-              Discover more holiday deals</pre>
-        </div>  
-        <div class="box7 box">
-             <h2>Shop holiday gift guides</h2>
-              <div class="single_box" style="background-image: url('images/22.jpg');"></div>
-              <pre> 
-               Explore holiday gifts </pre>
-        </div>   
-            
-        <div class="box8 box">
-             <h2>New home arrivals under $50</h2>
-             <div class="product_boxes">
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/23.jpg');"></div>
-                  <p class ="text" style="font-size: 12px;">Kitchen & Dining</p>
-               </div>
-               <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/24.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Home improvement</p>
-               </div>
-              </div>     
-             <div class="product_boxes">
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/25.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Decor</p>
-              </div>
-              <div class="box_img_container">
-                 <div class="box_img" style="background-image: url('images/26.jpg');"></div>
-                 <p class ="text" style="font-size: 12px;">Bedding & Bath</p>
-              </div>
-             </div>
-             <pre> 
-              
-              Shop the latest from home</pre>
-        </div>     
-        
-        
-        </div>
+    <!-- PANEL -->
+    <div class="panel">
+      <div class="panel-all border">
+        <i class="fa-solid fa-list"></i>
+        <span>All</span>
+      </div>
+      <div class="panel-ops">
+        <p>Today's Deals</p>
+        <p>Prime Video</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Customer Service</p>
+        <p>Sell</p>
+      </div>
     </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero_section">
+    <div class="hero_msg">
+      <p>
+        You are on amazun.com. You can also shop on Amazun India for millions
+        of products with fast local delivery.
+        <a href="#">Click here to go to amazun.in</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- SHOP ROW 1 -->
+  <div class="shop">
+    <div class="box box1">
+      <h2>Shop gifts by price</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/1.jpg')"
+          ></div>
+          <p class="text">Under $10</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/2.jpg')"
+          ></div>
+          <p class="text">Under $25</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/3.jpg')"
+          ></div>
+          <p class="text">Under $50</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/4.jpg')"
+          ></div>
+          <p class="text">Under $100</p>
+        </div>
+      </div>
+
+      <p class="box-link">Discover more for holiday</p>
+    </div>
+
+    <div class="box box2">
+      <h2>Shop gifts by recipient</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/5.jpg')"
+          ></div>
+          <p class="text">For him</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/6.jpg')"
+          ></div>
+          <p class="text">For her</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/7.jpg')"
+          ></div>
+          <p class="text">For kids</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/8.jpg')"
+          ></div>
+          <p class="text">For teens</p>
+        </div>
+      </div>
+
+      <p class="box-link">Shop all gifts</p>
+    </div>
+
+    <div class="box box3">
+      <h2>Shop for your home essentials</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/9.jpg')"
+          ></div>
+          <p class="text">Cleaning Tools</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/10.jpg')"
+          ></div>
+          <p class="text">Home storage</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/11.jpg')"
+          ></div>
+          <p class="text">Home Decor</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/12.jpg')"
+          ></div>
+          <p class="text">Bedding</p>
+        </div>
+      </div>
+
+      <p class="box-link">Discover more in home</p>
+    </div>
+
+    <div class="box box4">
+      <h2>Get your game on</h2>
+      <div
+        class="single_box"
+        style="background-image: url('images/13.jpg')"
+      ></div>
+      <p class="box-link">Shop gaming</p>
+    </div>
+  </div>
+
+  <!-- SHOP ROW 2 -->
+  <div class="shop shop2">
+    <div class="box box5">
+      <h2>Shop gifts by category</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/14.jpg')"
+          ></div>
+          <p class="text">Toys</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/15.jpg')"
+          ></div>
+          <p class="text">Home and Kitchen</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/16.jpg')"
+          ></div>
+          <p class="text">Electronics</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/17.jpg')"
+          ></div>
+          <p class="text">Sports &amp; Outdoors</p>
+        </div>
+      </div>
+
+      <p class="box-link">Discover more for holiday</p>
+    </div>
+
+    <div class="box box6">
+      <h2>Save more on deals</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/18.jpg')"
+          ></div>
+          <p class="text">Fashion</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/19.jpg')"
+          ></div>
+          <p class="text">Toys</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/20.jpg')"
+          ></div>
+          <p class="text">Home &amp; Kitchen</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/21.jpg')"
+          ></div>
+          <p class="text">Electronics</p>
+        </div>
+      </div>
+
+      <p class="box-link">Discover more holiday deals</p>
+    </div>
+
+    <div class="box box7">
+      <h2>Shop holiday gift guides</h2>
+      <div
+        class="single_box"
+        style="background-image: url('images/22.jpg')"
+      ></div>
+      <p class="box-link">Explore holiday gifts</p>
+    </div>
+
+    <div class="box box8">
+      <h2>New home arrivals under $50</h2>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/23.jpg')"
+          ></div>
+          <p class="text">Kitchen &amp; Dining</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/24.jpg')"
+          ></div>
+          <p class="text">Home improvement</p>
+        </div>
+      </div>
+
+      <div class="product_boxes">
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/25.jpg')"
+          ></div>
+          <p class="text">Decor</p>
+        </div>
+        <div class="box_img_container">
+          <div
+            class="box_img"
+            style="background-image: url('images/26.jpg')"
+          ></div>
+          <p class="text">Bedding &amp; Bath</p>
+        </div>
+      </div>
+
+      <p class="box-link">Shop the latest from home</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
   <footer>
     <div class="bottom-bar">
-      <pre>
-        
-      Back to top</pre>
+      <p>Back to top</p>
     </div>
-    
+
     <div class="bottom">
-      <div><pre> <h6>Get to Know Us</h6>
-Careers
+      <div>
+        <h6>Get to Know Us</h6>
+        <p>Careers</p>
+        <p>Blog</p>
+        <p>About Amazun</p>
+        <p>Investor Relations</p>
+        <p>Amazun Devices</p>
+        <p>Amazun Science</p>
+      </div>
 
-Blog
+      <div>
+        <h6>Make Money with Us</h6>
+        <p>Sell products on Amazun</p>
+        <p>Sell on Amazun Business</p>
+        <p>Sell apps on Amazun</p>
+        <p>Become an Affiliate</p>
+        <p>Advertise Your Products</p>
+        <p>Self-Publish with Us</p>
+        <p>Host an Amazun Hub</p>
+        <p>See More Make Money with Us</p>
+      </div>
 
-About Amazun
+      <div>
+        <h6>Amazun Payment Products</h6>
+        <p>Amazun Business Card</p>
+        <p>Shop with Points</p>
+        <p>Reload Your Balance</p>
+        <p>Amazun Currency Converter</p>
+      </div>
 
-Investor Relations
-
-Amazun Devices
-
-Amazun Science</pre></div>
-<div><pre>
-<h6>Make Money with Us</h6>
-Sell products on Amazun
-
-Sell on Amazun Business
-
-Sell apps on Amazun
-
-Become an Affiliate
-
-Advertise Your Products
-
-Self-Publish with Us
-
-Host an Amazun Hub
-
-› See More Make Money with Us
-</pre></div>
-<div ><pre>
-<h6>Amazun Payment Products</h6>
-Amazun Business Card
-
-Shop with Points
-
-Reload Your Balance
-
-Amazun Currency Converter</pre></div>
-<div><pre><h6>Let Us Help You</h6>
-Amazun and COVID-19
-
-Your Account
-
-Your Orders
-
-Shipping Rates & Policies
-
-Returns & Replacements
-
-Manage Your Content and Devices
-
-Help
-</pre></div>
+      <div>
+        <h6>Let Us Help You</h6>
+        <p>Amazun and COVID-19</p>
+        <p>Your Account</p>
+        <p>Your Orders</p>
+        <p>Shipping Rates &amp; Policies</p>
+        <p>Returns &amp; Replacements</p>
+        <p>Manage Your Content and Devices</p>
+        <p>Help</p>
+      </div>
     </div>
-    <hr style="font-weight: -50;">
+
     <div class="last">
-      <img src="images/amazun.png" alt="amazun" style="margin-right: 125px;" height="100px;">
-        <button>English</button>
-        <button>USD- US Dollar</button>
-        <button>United States</button>
-
+      <img
+        src="images/amazun.png"
+        alt="amazun"
+        height="60"
+        class="footer-logo"
+      />
+      <button>English</button>
+      <button>USD - US Dollar</button>
+      <button>United States</button>
     </div>
+
     <div class="lastt">
-      <pre><a>Conditions of Use</a>   <A> Privacy Notice </A>  <a> Consumer Health Data Privacy Disclosure </a>   <a>Your Ads Privacy Choices</a>
-                                                ©   1996-2025, Amazun.com, Inc. or its affiliates
-
-                                                 Made with <i class="fa-solid fa-heart"></i> by Kajal Sanwal
-</pre>
-<br>
-<p></p>
-
-     </div>
+      <p>
+        <a href="#">Conditions of Use</a> ·
+        <a href="#">Privacy Notice</a> ·
+        <a href="#">Consumer Health Data Privacy Disclosure</a> ·
+        <a href="#">Your Ads Privacy Choices</a>
+        <br />
+        © 1996-2025, Amazun.com, Inc. or its affiliates
+        <br />
+        Made with <i class="fa-solid fa-heart"></i> by Kajal Sanwal
+      </p>
+    </div>
   </footer>
 </body>
 </html>
